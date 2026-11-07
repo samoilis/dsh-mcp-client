@@ -1,0 +1,9 @@
+{
+  "client_id": "https://cdn.jsdelivr.net/gh/samoilis/dsh-mcp-client@main/oauth-client.json",
+  "client_name": "DeepSeek Harness",
+  "redirect_uris": ["http://127.0.0.1:5199/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "openid profile email offline_access"
+}
